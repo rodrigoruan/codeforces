@@ -8,7 +8,7 @@ int main()
 {
     int line = 0, row = 1;
 
-    int x;
+    int x = 0;
 
     while (x != 1)
     {
@@ -22,7 +22,7 @@ int main()
         line++;
     }
 
-    cout << abs(3 - row) + abs(3 - line) << endl;
+    cout << abs(row - 3) + abs(line - 3) << endl;
 
     return 0;
 }
